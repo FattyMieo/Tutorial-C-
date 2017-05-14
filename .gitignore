@@ -80,3 +80,4 @@ $RECYCLE.BIN/
 
 # Dev C++
 Makefile.win
+*.layout
