@@ -20,16 +20,13 @@ void MessageSelector()
 		}
 		else
 		{
-			canExit = i >= 0;
+			canExit = i > 0;
 		}
 	}
 	while(!canExit);
 	
 	switch(i)
 	{
-		case 0:
-			cout << "Hello World" << endl;
-			break;
 		case 1:
 			cout << "Hello FunBun" << endl;
 			break;
