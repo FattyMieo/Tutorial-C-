@@ -9,7 +9,7 @@ void MessageSelector()
 	
 	do
 	{
-		cout << "Type an integer equal or bigger than 0: ";
+		cout << "Type an integer that is bigger than 0: ";
 		cin >> i;
 		
 		if(!cin.good())
